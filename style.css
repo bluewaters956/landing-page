@@ -1,0 +1,125 @@
+body {
+    background-color: #1F2937;
+    font-family: "roboto", sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px;
+}
+
+.logo {
+   font-size: 24px;
+   color: #F9FAF8;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 36px 0px;
+    padding: auto;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px;
+    margin: 0px 24px;
+    max-width: 600px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+div .hero {
+    flex-wrap: wrap;
+}
+
+.Will {
+    padding: 12px;
+    margin: 0px 24px;
+    width: 200px;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    padding: 4px;
+    border-radius: 12px;
+    border-color: white;
+    background-color: #3882f6;
+    margin-top: 24px;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: #1f2937
+}
+
+.information {
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 24px 0px;
+}
+
+.all-projects {
+    display: flex;
+    margin-bottom: 72px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    padding: 24px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-3 {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: oblique;
+    color: #1f2937;
+}
+
+.footer {
+    flex: 1;
+}
